@@ -10,7 +10,7 @@
   <body class="bg-gray-200">
     <div class="flex">
       <!-- Side Navbar -->
-      <div class="bg-indigo-900 w-64 text-white">
+      <div class="bg-indigo-900 w-64 text-white h-screen">
         <div class="bg-indigo-800">
           <div class="uppercase text-gray-200 p-5 text-xl font-bold">
             super corp
@@ -51,9 +51,43 @@
       </div>
       <!-- Side Navbar -->
 
-      <!-- Main Navbar -->
-      <div>Main content area</div>
-      <!-- Main Navbar -->
+      <!-- Main area -->
+      <div class="flex-1">
+        <!-- Top navbar -->
+        <div class="bg-white px-2 p-3 h-18 flex">
+          <div class="left md:w-3/4 sm:w-1/3 flex">
+            <img src="img/person.png" alt="" />
+            <span class="block p-5">Ashutosh Pawar</span>
+          </div>
+          <div class="right md:w-1/4 sm:w-2/3 flex self-center">
+            <img
+              src="img/search.png"
+              class="w-7 h-7 bg-gray-100 rounded-full p-1 mx-2"
+              alt=""
+            />
+            <img
+              src="img/message.png"
+              class="w-7 h-7 bg-gray-100 rounded-full p-1 mx-2"
+              alt=""
+            />
+            <img
+              src="img/warning.png"
+              class="w-7 h-7 bg-gray-100 rounded-full p-1 mx-2"
+              alt=""
+            />
+            <a href="" class="mx-3">Logout</a>
+          </div>
+        </div>
+        <!-- Top Navbar -->
+
+        <!-- site banner -->
+        <div class="bg-indigo-200 m-7 p-6">
+          <div class="text-4xl text-gray-700 font-medium">Good Morning, Super Inc</div>
+          <div class="mt-4">These are the stats for today, have a good day</div>
+        </div>
+        <!-- site banner -->
+      </div>
+      <!-- Main area -->
     </div>
   </body>
 </html>
